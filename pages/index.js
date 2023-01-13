@@ -104,6 +104,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={everfi1}
+                alt="EVERFI screenshot"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -113,6 +114,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={everfi2}
+                alt="EVERFI screenshot"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -122,6 +124,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={everfi3}
+                alt="EVERFI screenshot"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -131,6 +134,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={everfi4}
+                alt="EVERFI screenshot"
               />
             </div>
           </div>
@@ -157,6 +161,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={bunny1}
+                alt="Bunny screenshot"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -166,6 +171,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={bunny2}
+                alt="Bunny screenshot"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -175,6 +181,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={bunny3}
+                alt="Bunny screenshot"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -184,6 +191,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={bunny4}
+                alt="Bunny screenshot"
               />
             </div>
           </div>
@@ -209,6 +217,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={yt1}
+                  alt="YouTube screenshot"
                 />
               </Link>
             </div>
@@ -220,6 +229,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={yt2}
+                  alt="YouTube screenshot"
                 />
               </Link>
             </div>
@@ -231,6 +241,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={yt3}
+                  alt="YouTube screenshot"
                 />
               </Link>
             </div>
@@ -242,6 +253,7 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                   src={yt4}
+                  alt="YouTube screenshot"
                 />
               </Link>
             </div>
