@@ -43,7 +43,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-2">
             <div className="mx-auto bg-gradient-to-b rounded-full w-60 h-60 relative overflow-hidden md:h-70 md:w-70">
-              <Image src={matthew} layout="fill" objectFit="cover" />
+              <Image src={matthew} alt="Profile" layout="fill" objectFit="cover" />
             </div>
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Matthew Hefferon
