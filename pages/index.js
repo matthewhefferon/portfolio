@@ -56,8 +56,8 @@ export default function Home() {
               <span className="text-teal-500">data visualization</span> and
               helping companies make{" "}
               <span className="text-teal-500">data-driven</span> decisions. I
-              have 8+ years of experiance working in the{" "}
-              <span className="text-teal-500">data analytics</span> industry.
+              have 8+ years of experiance working in{" "}
+              <span className="text-teal-500">data analytics</span>.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <div className="hover:text-teal-500">
