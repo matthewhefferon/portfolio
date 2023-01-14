@@ -44,7 +44,7 @@ export default function Home() {
                   href="https://www.linkedin.com/in/matthewhefferon/"
                   passHref={true}
                 >
-                  <div className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8">
+                  <div className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:brightness-95">
                     Connect{" "}
                   </div>
                 </Link>
@@ -160,11 +160,11 @@ export default function Home() {
               Embedded Analytics @Bunny
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              In a short period of time, I built out the customer facing
-              analytics at a startup named Bunny. I used{" "}
-              <span className="text-teal-500">Metabase</span> and{" "}
-              <span className="text-teal-500">React</span> with the data coming
-              from <span className="text-teal-500">PostgreSQL</span>.
+              I was hired on as employee #8 and tasked to build our customer facing
+              analytics. I used the following tools{" "}
+              <span className="text-teal-500">Metabase</span>{", "}
+              <span className="text-teal-500">React</span> and{" "}
+              <span className="text-teal-500">PostgreSQL</span>.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
