@@ -39,11 +39,26 @@ export default function Home() {
                   className=" cursor-pointer text-2xl"
                 />
               </li>
+              <li>
+                <Link
+                  href="https://www.linkedin.com/in/matthewhefferon/"
+                  passHref={true}
+                >
+                  <div className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8">
+                    Connect{" "}
+                  </div>
+                </Link>
+              </li>
             </ul>
           </nav>
           <div className="text-center p-5 py-2">
             <div className="mx-auto bg-gradient-to-b rounded-full w-60 h-60 relative overflow-hidden md:h-70 md:w-70">
-              <Image src={matthew} alt="Profile" layout="fill" objectFit="cover" />
+              <Image
+                src={matthew}
+                alt="Profile"
+                layout="fill"
+                objectFit="cover"
+              />
             </div>
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Matthew Hefferon
