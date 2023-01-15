@@ -16,6 +16,8 @@ import yt1 from "../public/yt_1.png";
 import yt2 from "../public/yt_2.png";
 import yt3 from "../public/yt_3.png";
 import yt4 from "../public/yt_4.png";
+import tds from "../public/tableau-desktop-specialist.png";
+import td from "../public/tableau-developer.png";
 import Link from "next/link";
 
 export default function Home() {
@@ -100,10 +102,62 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="py-5">
+          <div>
+            <h3 className="text-3xl py-1 dark:text-white ">
+              Tableau Certified
+            </h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+              I'm <span className="text-teal-500">Tableau certified</span> and
+              have a wide range of experiance from building dashboards,
+              self-service trainings to more advanced items such as{" "}
+              <span className="text-teal-500">Server Administration</span>,{" "}
+              <span className="text-teal-500">Multi-Node HA Environments</span>,{" "}
+              <span className="text-teal-500">Server Upgrades</span>,{" "}
+              <span className="text-teal-500">Embedded API</span>,{" "}
+              <span className="text-teal-500">REST API</span>,{" "}
+              <span className="text-teal-500">Metadata API</span> and the{" "}
+              <span className="text-teal-500">Extenion API</span>.
+            </p>
+          </div>
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1 ">
+              <Link
+                href="https://www.credly.com/badges/bdd490c8-c317-48c5-ace0-0f2ff14d7bb9/public_url"
+                passHref={true}
+              >
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={tds}
+                  alt="Tableau desktop specialist badge"
+                />
+              </Link>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Link
+                href="https://www.credly.com/badges/1f9b7f67-4beb-40db-ae14-c7415d7b8385/public_url"
+                passHref={true}
+              >
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={td}
+                  alt="Tableau developer badge"
+                />
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* <section className="py-5">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">
-              Embedded Analytics @EVERFI
+              Embedded Analytics at EVERFI
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I was in charge of building out the customer facing reporting at
@@ -157,12 +211,13 @@ export default function Home() {
         <section className="py-5">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">
-              Embedded Analytics @Bunny
+              Embedded Analytics at Bunny
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I was hired on as employee #8 and tasked to build our customer facing
-              analytics. I used the following tools{" "}
-              <span className="text-teal-500">Metabase</span>{", "}
+              I was hired on as employee #8 and tasked to build the customer
+              facing analytics. I used the following tools{" "}
+              <span className="text-teal-500">Metabase</span>
+              {", "}
               <span className="text-teal-500">React</span> and{" "}
               <span className="text-teal-500">PostgreSQL</span>.
             </p>
@@ -215,8 +270,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">YouTube Channel</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I started a YouTube channel to teach people about data and
-              analytics. I'm approaching{" "}
+              I started a YouTube channel to teach people about <span className="text-teal-500">data visualization</span>. I'm approaching{" "}
               <span className="text-teal-500">2k subscribers</span> with over{" "}
               <span className="text-teal-500">400k views</span>. Here are some
               of my most viewed videos.
