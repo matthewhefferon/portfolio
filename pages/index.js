@@ -4,10 +4,10 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import Image from "next/image";
 import matthew from "../public/matthew.png";
-// import everfi1 from "../public/everfi_1.png";
-// import everfi2 from "../public/everfi_2.png";
-// import everfi3 from "../public/everfi_3.png";
-// import everfi4 from "../public/everfi_4.png";
+import everfi1 from "../public/everfi_1.png";
+import everfi2 from "../public/everfi_2.png";
+import everfi3 from "../public/everfi_3.png";
+import everfi4 from "../public/everfi_4.png";
 import bunny1 from "../public/bunny_1.png";
 import bunny2 from "../public/bunny_2.png";
 import bunny3 from "../public/bunny_3.png";
@@ -109,13 +109,13 @@ export default function Home() {
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I'm <span className="text-teal-500">Tableau certified</span> and
-              have a wide range of experiance from building dashboards,
-              self-service trainings to more advanced items such as{" "}
+              have a wide range of experiance from building dashboards, running
+              self-service trainings, to more advanced features like{" "}
               <span className="text-teal-500">Server Administration</span>,{" "}
               <span className="text-teal-500">Multi-Node HA Environments</span>,{" "}
               <span className="text-teal-500">Server Upgrades</span>,{" "}
-              <span className="text-teal-500">Embedded API</span>,{" "}
               <span className="text-teal-500">REST API</span>,{" "}
+              <span className="text-teal-500">Embedded API</span>,{" "}
               <span className="text-teal-500">Metadata API</span> and the{" "}
               <span className="text-teal-500">Extenion API</span>.
             </p>
@@ -153,15 +153,26 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        {/* <section className="py-5">
+        <section className="py-5">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">
               Embedded Analytics at EVERFI
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I was in charge of building out the customer facing reporting at
-              EVERFI. Some fun stats...
+              I was hired on to build out the customer facing analytics at EVERFI. I used
+              the following technologies{" "}
+              <span className="text-teal-500">Tableau</span>
+              {", "}
+              <span className="text-teal-500">Redshift</span> and{" "}
+              <span className="text-teal-500">Snowflake</span>. Some fun stats.
+              Dashboards generally load in{" "}
+              <span className="text-teal-500">{"<"}5 seconds</span> and querying{" "}
+              <span className="text-teal-500">250K - 50M</span> rows of data
+              while enforcing{" "}
+              <span className="text-teal-500">Row Level Security</span>. All
+              embedded charts{" "}
+              <span className="text-teal-500">avg ~1K daily views</span> with{" "}
+              <span className="text-teal-500">~4K monthly unique users</span>.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -206,7 +217,7 @@ export default function Home() {
               />
             </div>
           </div>
-        </section>*/}
+        </section>
 
         <section className="py-5">
           <div>
@@ -215,7 +226,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I was hired on as employee #8 and tasked to build the customer
-              facing analytics. I used the following tools{" "}
+              facing analytics. I used the following technologies{" "}
               <span className="text-teal-500">Metabase</span>
               {", "}
               <span className="text-teal-500">React</span> and{" "}
@@ -270,10 +281,11 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">YouTube Channel</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I started a YouTube channel to teach people about <span className="text-teal-500">data visualization</span>. I'm approaching{" "}
-              <span className="text-teal-500">2k subscribers</span> with over{" "}
-              <span className="text-teal-500">400k views</span>. Here are some
-              of my most viewed videos.
+              I started a YouTube channel to teach people about{" "}
+              <span className="text-teal-500">data visualization</span>. I'm
+              approaching <span className="text-teal-500">2k subscribers</span>{" "}
+              with over <span className="text-teal-500">~400k views</span>. Here
+              are some of my most viewed videos.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
