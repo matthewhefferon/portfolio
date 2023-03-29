@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { AiFillLinkedin, AiFillYoutube, AiFillGithub } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import {IoLogoTableau} from "react-icons/io5";
 import { useState } from "react";
 import Image from "next/image";
 import matthew from "../public/matthew.png";
@@ -83,6 +84,14 @@ export default function Home() {
                   passHref={true}
                 >
                   <AiFillLinkedin />
+                </Link>
+              </div>
+              <div className="hover:text-teal-500">
+                <Link
+                  href="https://public.tableau.com/app/profile/matthewhefferon"
+                  passHref={true}
+                >
+                  <IoLogoTableau />
                 </Link>
               </div>
               <div className="hover:text-teal-500">
