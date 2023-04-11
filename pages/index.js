@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { AiFillLinkedin, AiFillYoutube, AiFillGithub } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import {IoLogoTableau} from "react-icons/io5";
+import { IoLogoTableau } from "react-icons/io5";
 import { useState } from "react";
 import Image from "next/image";
 import matthew from "../public/matthew.png";
@@ -18,7 +18,7 @@ import yt2 from "../public/yt_2.png";
 import yt3 from "../public/yt_3.png";
 import yt4 from "../public/yt_4.png";
 import tds from "../public/tableau-desktop-specialist.png";
-import td from "../public/tableau-developer.png";
+import md from "../public/meta-front-end-developer-certificate.png";
 import Link from "next/link";
 
 export default function Home() {
@@ -114,19 +114,14 @@ export default function Home() {
         <section className="py-5">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">
-              Tableau Certified
+              Licenses & Certifications
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I'm <span className="text-teal-500">Tableau certified</span> and
-              have a wide range of experiance from building dashboards, running
-              self-service trainings, to more advanced features like{" "}
-              <span className="text-teal-500">Server Administration</span>,{" "}
-              <span className="text-teal-500">Multi-Node HA Environments</span>,{" "}
-              <span className="text-teal-500">Server Upgrades</span>,{" "}
-              <span className="text-teal-500">REST API</span>,{" "}
-              <span className="text-teal-500">Embedded API</span>,{" "}
-              <span className="text-teal-500">Metadata API</span> and the{" "}
-              <span className="text-teal-500">Extenion API</span>.
+              recently received my{" "}
+              <span className="text-teal-500">
+                Meta Front End Developer certificate</span>. I'm interested in BI tools and data visualization libraries like <span className="text-teal-500">D3.js</span> and airbnb's <span className="text-teal-500">visx</span>.
+              
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -147,7 +142,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Link
-                href="https://www.credly.com/badges/1f9b7f67-4beb-40db-ae14-c7415d7b8385/public_url"
+                href="https://www.credly.com/badges/c095c162-a298-48db-9b62-3640453bda11/public_url"
                 passHref={true}
               >
                 <Image
@@ -155,8 +150,8 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  src={td}
-                  alt="Tableau developer badge"
+                  src={md}
+                  alt="Meta Front-End Developer Certificate"
                 />
               </Link>
             </div>
@@ -168,8 +163,8 @@ export default function Home() {
               Embedded Analytics at EVERFI
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I was hired on to build out the customer facing analytics at EVERFI. I used
-              the following technologies{" "}
+              I was hired on to build out the customer facing analytics at
+              EVERFI. I used the following technologies{" "}
               <span className="text-teal-500">Tableau</span>
               {", "}
               <span className="text-teal-500">Redshift</span> and{" "}
