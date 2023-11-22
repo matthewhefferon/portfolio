@@ -118,7 +118,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I'm <span className="text-teal-500">Tableau certified</span>,{" "}and
-              I've also snagged the{" "}
+              I've also earned the{" "}
               <span className="text-teal-500">
                 Google Business Intelligence certificate
               </span>{" "}
