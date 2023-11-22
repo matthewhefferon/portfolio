@@ -19,6 +19,7 @@ import yt3 from "../public/yt_3.png";
 import yt4 from "../public/yt_4.png";
 import tds from "../public/tableau-desktop-specialist.png";
 import md from "../public/meta-front-end-developer-certificate.png";
+import gbi from "../public/google-business-intelligence-certificate.png";
 import Link from "next/link";
 
 export default function Home() {
@@ -110,22 +111,28 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <section className="py-5">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">
               Licenses & Certifications
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I'm <span className="text-teal-500">Tableau certified</span> and
-              recently received my{" "}
+              I'm <span className="text-teal-500">Tableau certified</span>,{" "}and
+              I've also snagged the{" "}
               <span className="text-teal-500">
-                Meta Front End Developer certificate</span>. I'm interested in BI tools and data visualization libraries like <span className="text-teal-500">D3.js</span> and airbnb's <span className="text-teal-500">visx</span>.
-              
+                Google Business Intelligence certificate
+              </span>{" "}
+              and {" "}
+              <span className="text-teal-500">
+                Meta Front End Developer certificate
+              </span>
+              . I enjoy working with BI tools and experimenting with cool data visualization libraries like{" "}
+              <span className="text-teal-500">D3.js</span> and Airbnb's{" "}
+              <span className="text-teal-500">visx</span>.
             </p>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
+          <div className="flex justify-center items-center flex-col gap-10 py-10 md:flex-row md:flex-wrap ">
+            <div>
               <Link
                 href="https://www.credly.com/badges/bdd490c8-c317-48c5-ace0-0f2ff14d7bb9/public_url"
                 passHref={true}
@@ -134,22 +141,34 @@ export default function Home() {
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
-                  layout="responsive"
                   src={tds}
                   alt="Tableau desktop specialist badge"
                 />
               </Link>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div>
               <Link
-                href="https://www.credly.com/badges/c095c162-a298-48db-9b62-3640453bda11/public_url"
+                href="https://www.coursera.org/account/accomplishments/specialization/certificate/8QJA2ZR4ZFEV"
                 passHref={true}
               >
                 <Image
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
-                  layout="responsive"
+                  src={gbi}
+                  alt="Google Business Intelligence Certificate"
+                />
+              </Link>
+            </div>
+            <div>
+              <Link
+                href="https://www.coursera.org/account/accomplishments/specialization/certificate/U3Y8VNA28HFQ"
+                passHref={true}
+              >
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
                   src={md}
                   alt="Meta Front-End Developer Certificate"
                 />
@@ -280,16 +299,16 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <section className="py-5">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">YouTube Channel</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I started a YouTube channel to teach people about{" "}
               <span className="text-teal-500">data visualization</span>. I'm
-              approaching <span className="text-teal-500">2.5k subscribers</span>{" "}
-              with over <span className="text-teal-500">~580k views</span>. Here
-              are some of my most viewed videos.
+              approaching{" "}
+              <span className="text-teal-500">2.5k subscribers</span> with over{" "}
+              <span className="text-teal-500">~580k views</span>. Here are some
+              of my most viewed videos.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
