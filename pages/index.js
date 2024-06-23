@@ -75,7 +75,7 @@ export default function Home() {
               <span className="text-teal-500">data visualization</span> and
               helping companies make{" "}
               <span className="text-teal-500">data-driven</span> decisions. I
-              have 8+ years of experience working in{" "}
+              have 10+ years of experience working in{" "}
               <span className="text-teal-500">data & analytics</span>.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -126,7 +126,7 @@ export default function Home() {
               <span className="text-teal-500">
                 Meta Front End Developer certificate
               </span>
-              . I enjoy working with BI tools and experimenting with cool data visualization libraries like{" "}
+              . I enjoy working with BI tools and experimenting with data visualization libraries like{" "}
               <span className="text-teal-500">D3.js</span> and Airbnb's{" "}
               <span className="text-teal-500">visx</span>.
             </p>
@@ -248,7 +248,7 @@ export default function Home() {
               Embedded Analytics at Bunny
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I was hired on as employee #8 and tasked to build the customer
+              I was hired on as <span className="text-teal-500">employee #8</span> and tasked to build the customer
               facing analytics. I used the following technologies{" "}
               <span className="text-teal-500">Metabase</span>
               {", "}
@@ -306,8 +306,8 @@ export default function Home() {
               I started a YouTube channel to teach people about{" "}
               <span className="text-teal-500">data visualization</span>. I'm
               approaching{" "}
-              <span className="text-teal-500">2.8k subscribers</span> with over{" "}
-              <span className="text-teal-500">~735k views</span>. Here are some
+              <span className="text-teal-500">2.9k subscribers</span> with over{" "}
+              <span className="text-teal-500">~739k views</span>. Here are some
               of my most viewed videos.
             </p>
           </div>
