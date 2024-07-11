@@ -307,7 +307,7 @@ export default function Home() {
               <span className="text-teal-500">data visualization</span>. I'm
               approaching{" "}
               <span className="text-teal-500">3k subscribers</span> with over{" "}
-              <span className="text-teal-500">~739k views</span>. Here are some
+              <span className="text-teal-500">~750k views</span>. Here are some
               of my most viewed videos.
             </p>
           </div>
