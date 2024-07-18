@@ -306,8 +306,8 @@ export default function Home() {
               I started a YouTube channel to teach people about{" "}
               <span className="text-teal-500">data visualization</span>. I'm
               approaching{" "}
-              <span className="text-teal-500">3k subscribers</span> with over{" "}
-              <span className="text-teal-500">~750k views</span>. Here are some
+              <span className="text-teal-500">2.91k subscribers</span> with over{" "}
+              <span className="text-teal-500">~757,760k views</span>. Here are some
               of my most viewed videos.
             </p>
           </div>
