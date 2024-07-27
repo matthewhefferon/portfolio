@@ -182,19 +182,19 @@ export default function Home() {
               Embedded Analytics at EVERFI
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I was hired on to build out the customer facing analytics at
-              EVERFI. I used the following technologies{" "}
+              I was hired to build customer-facing analytics at
+              EVERFI, utilizing{" "}
               <span className="text-teal-500">Tableau</span>
               {", "}
               <span className="text-teal-500">Redshift</span> and{" "}
-              <span className="text-teal-500">Snowflake</span>. Some fun stats.
+              <span className="text-teal-500">Snowflake</span>. Here are some highlights:
               Dashboards generally load in{" "}
-              <span className="text-teal-500">{"<"}5 seconds</span> and querying{" "}
+              <span className="text-teal-500">{"<"}5 seconds</span> querying{" "}
               <span className="text-teal-500">250K - 50M</span> rows of data
               while enforcing{" "}
-              <span className="text-teal-500">Row Level Security</span>. All
+              <span className="text-teal-500">Row Level Security</span>. Our
               embedded charts{" "}
-              <span className="text-teal-500">avg ~1K daily views</span> with{" "}
+              <span className="text-teal-500">average ~1K daily views</span> and{" "}
               <span className="text-teal-500">~4K monthly unique users</span>.
             </p>
           </div>
