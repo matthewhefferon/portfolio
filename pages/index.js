@@ -189,7 +189,7 @@ export default function Home() {
               <span className="text-teal-500">Redshift</span> and{" "}
               <span className="text-teal-500">Snowflake</span>. Here are some highlights:
               Dashboards generally load in{" "}
-              <span className="text-teal-500">{"<"}5 seconds</span> querying{" "}
+              <span className="text-teal-500">{"< "}5 seconds</span> querying{" "}
               <span className="text-teal-500">250K - 50M</span> rows of data
               while enforcing{" "}
               <span className="text-teal-500">Row Level Security</span>. Our
@@ -306,8 +306,8 @@ export default function Home() {
               I started a YouTube channel to teach people about{" "}
               <span className="text-teal-500">data visualization</span>. I have
               {" "}
-              <span className="text-teal-500">2.93K subscribers</span> with over{" "}
-              <span className="text-teal-500">~763K views</span>. Here are some
+              <span className="text-teal-500">2.95K subscribers</span> with over{" "}
+              <span className="text-teal-500">~770K views</span>. Here are some
               of my most viewed videos.
             </p>
           </div>
