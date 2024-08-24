@@ -117,16 +117,17 @@ export default function Home() {
               Licenses & Certifications
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I'm <span className="text-teal-500">Tableau certified</span>,{" "}and
+              I'm <span className="text-teal-500">Tableau certified</span>, and
               I've also earned the{" "}
               <span className="text-teal-500">
                 Google Business Intelligence certificate
               </span>{" "}
-              and {" "}
+              and{" "}
               <span className="text-teal-500">
                 Meta Front End Developer certificate
               </span>
-              . I enjoy working with BI tools and experimenting with data visualization libraries like{" "}
+              . I enjoy working with BI tools and experimenting with data
+              visualization libraries like{" "}
               <span className="text-teal-500">D3.js</span> and Airbnb's{" "}
               <span className="text-teal-500">visx</span>.
             </p>
@@ -182,13 +183,12 @@ export default function Home() {
               Embedded Analytics at EVERFI
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I was hired to build customer-facing analytics at
-              EVERFI, utilizing{" "}
-              <span className="text-teal-500">Tableau</span>
+              I was hired to build customer-facing analytics at EVERFI,
+              utilizing <span className="text-teal-500">Tableau</span>
               {", "}
               <span className="text-teal-500">Redshift</span> and{" "}
-              <span className="text-teal-500">Snowflake</span>. Here are some highlights:
-              Dashboards generally load in{" "}
+              <span className="text-teal-500">Snowflake</span>. Here are some
+              highlights: Dashboards generally load in{" "}
               <span className="text-teal-500">{"< "}5 seconds</span> querying{" "}
               <span className="text-teal-500">250K - 50M</span> rows of data
               while enforcing{" "}
@@ -248,9 +248,10 @@ export default function Home() {
               Embedded Analytics at Bunny
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I was hired on as <span className="text-teal-500">employee #8</span> and tasked to build the customer
-              facing analytics. I used the following technologies{" "}
-              <span className="text-teal-500">Metabase</span>
+              I was hired on as{" "}
+              <span className="text-teal-500">employee #8</span> and tasked to
+              build the customer facing analytics. I used the following
+              technologies <span className="text-teal-500">Metabase</span>
               {", "}
               <span className="text-teal-500">React</span> and{" "}
               <span className="text-teal-500">PostgreSQL</span>.
@@ -304,8 +305,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">YouTube Channel</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I started a YouTube channel to teach people about{" "}
-              <span className="text-teal-500">data visualization</span>. I have
-              {" "}
+              <span className="text-teal-500">data visualization</span>. I have{" "}
               <span className="text-teal-500">2.99K subscribers</span> with over{" "}
               <span className="text-teal-500">~782K views</span>. Here are some
               of my most viewed videos.
@@ -360,6 +360,9 @@ export default function Home() {
                 />
               </Link>
             </div>
+          </div>
+          <div className="py-5 text-center text-2xl dark:text-white md:text-3xl">
+            <p>Cheers 🍻</p>
           </div>
         </section>
       </main>
