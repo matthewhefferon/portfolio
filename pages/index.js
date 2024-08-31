@@ -21,9 +21,11 @@ import tds from "../public/tableau-desktop-specialist.png";
 import md from "../public/meta-front-end-developer-certificate.png";
 import gbi from "../public/google-business-intelligence-certificate.png";
 import Link from "next/link";
+import Confetti from 'react-confetti';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
+  const [showConfetti, setShowConfetti] = useState(false);
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -48,7 +50,11 @@ export default function Home() {
                   href="https://www.linkedin.com/in/matthewhefferon/"
                   passHref={true}
                 >
-                  <div className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:brightness-95">
+                  <div 
+                    className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:brightness-95"
+                    onMouseEnter={() => setShowConfetti(true)}
+                    onMouseLeave={() => setShowConfetti(false)}
+                  >
                     Connect{" "}
                   </div>
                 </Link>
@@ -56,7 +62,9 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-5 py-2">
-            <div className="mx-auto bg-gradient-to-b rounded-full w-60 h-60 relative overflow-hidden md:h-70 md:w-70">
+            <div 
+              className="mx-auto bg-gradient-to-b rounded-full w-60 h-60 relative overflow-hidden md:h-70 md:w-70"
+            >
               <Image
                 src={matthew}
                 alt="Profile"
@@ -299,7 +307,7 @@ export default function Home() {
               I started a YouTube channel to teach people about{" "}
               <span className="text-teal-500">data visualization</span>. I have{" "}
               <span className="text-teal-500">3K subscribers</span> with over{" "}
-              <span className="text-teal-500">~784K views</span>. Here are some
+              <span className="text-teal-500">~787K views</span>. Here are some
               of my most viewed videos.
             </p>
           </div>
@@ -354,6 +362,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      {showConfetti && <Confetti width={window.innerWidth} height={window.innerHeight} />}
     </div>
   );
 }
