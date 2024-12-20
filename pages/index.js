@@ -21,7 +21,7 @@ import tds from "../public/tableau-desktop-specialist.png";
 import md from "../public/meta-front-end-developer-certificate.png";
 import gbi from "../public/google-business-intelligence-certificate.png";
 import Link from "next/link";
-import Confetti from 'react-confetti';
+import Confetti from "react-confetti";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -50,7 +50,7 @@ export default function Home() {
                   href="https://www.linkedin.com/in/matthewhefferon/"
                   passHref={true}
                 >
-                  <div 
+                  <div
                     className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 hover:brightness-95"
                     onMouseEnter={() => setShowConfetti(true)}
                     onMouseLeave={() => setShowConfetti(false)}
@@ -62,9 +62,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-5 py-2">
-            <div 
-              className="mx-auto bg-gradient-to-b rounded-full w-60 h-60 relative overflow-hidden md:h-70 md:w-70"
-            >
+            <div className="mx-auto bg-gradient-to-b rounded-full w-60 h-60 relative overflow-hidden md:h-70 md:w-70">
               <Image
                 src={matthew}
                 alt="Profile"
@@ -79,12 +77,11 @@ export default function Home() {
               Developer Advocate
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              I'm passionate about{" "}
-              <span className="text-teal-500">data visualization</span> and
-              helping companies make{" "}
-              <span className="text-teal-500">data-driven</span> decisions. I
-              have 10+ years of experience working in{" "}
-              <span className="text-teal-500">data & analytics</span>.
+              I've spent the last 10+ years working in{" "}
+              <span className="text-teal-500">data and analytics</span> and
+              currently work as a{" "}
+              <span className="text-teal-500">developer advocate</span> at{" "}
+              Metabase.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <div className="hover:text-teal-500">
@@ -125,19 +122,16 @@ export default function Home() {
               Licenses & Certifications
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I'm <span className="text-teal-500">Tableau certified</span>, and
-              I've also earned the{" "}
+              I am <span className="text-teal-500">Tableau Certified</span> and
+              have earned the{" "}
               <span className="text-teal-500">
-                Google Business Intelligence certificate
+                Google Business Intelligence
               </span>{" "}
               and{" "}
-              <span className="text-teal-500">
-                Meta Front End Developer certificate
-              </span>
-              . I enjoy working with BI tools and experimenting with data
-              visualization libraries like{" "}
-              <span className="text-teal-500">D3.js</span> and Airbnb's{" "}
-              <span className="text-teal-500">visx</span>.
+              <span className="text-teal-500">Meta Front End Developer</span>{" "}
+              certifications. I also enjoy coding and experimenting with{" "}
+              <span className="text-teal-500">data visualization</span>{" "}
+              libraries like <span className="text-teal-500">D3.js</span>.
             </p>
           </div>
           <div className="flex justify-center items-center flex-col gap-10 py-10 md:flex-row md:flex-wrap ">
@@ -191,19 +185,13 @@ export default function Home() {
               Embedded Analytics at EVERFI
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I was hired to build customer-facing analytics at EVERFI,
-              utilizing <span className="text-teal-500">Tableau</span>
+              I was tasked to help build the{" "}
+              <span className="text-teal-500">customer-facing analytics</span>.
+              I used the following technologies{" "}
+              <span className="text-teal-500">Tableau</span>
               {", "}
               <span className="text-teal-500">Redshift</span> and{" "}
-              <span className="text-teal-500">Snowflake</span>. Here are some
-              highlights: Dashboards generally load in{" "}
-              <span className="text-teal-500">{"< "}5 seconds</span> querying{" "}
-              <span className="text-teal-500">250K - 50M</span> rows of data
-              while enforcing{" "}
-              <span className="text-teal-500">Row Level Security</span>. Our
-              embedded charts{" "}
-              <span className="text-teal-500">average ~1K daily views</span> and{" "}
-              <span className="text-teal-500">~4K monthly unique users</span>.
+              <span className="text-teal-500">Snowflake</span>.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -252,10 +240,11 @@ export default function Home() {
               Embedded Analytics at Bunny
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I was hired on as{" "}
-              <span className="text-teal-500">employee #8</span> and tasked to
-              build the customer facing analytics. I used the following
-              technologies <span className="text-teal-500">Metabase</span>
+              I was hired as <span className="text-teal-500">employee #8</span>{" "}
+              and tasked to build the{" "}
+              <span className="text-teal-500">customer-facing analytics</span>.
+              I used the following technologies{" "}
+              <span className="text-teal-500">Metabase</span>
               {", "}
               <span className="text-teal-500">React</span> and{" "}
               <span className="text-teal-500">PostgreSQL</span>.
@@ -306,8 +295,8 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I started a YouTube channel to teach people about{" "}
               <span className="text-teal-500">data visualization</span>. I have{" "}
-              <span className="text-teal-500">3.15K subscribers</span> with over{" "}
-              <span className="text-teal-500">~831K views</span>. Here are some
+              <span className="text-teal-500">3.23K subscribers</span> with over{" "}
+              <span className="text-teal-500">~869K views</span>. Here are some
               of my most viewed videos.
             </p>
           </div>
@@ -362,7 +351,9 @@ export default function Home() {
           </div>
         </section>
       </main>
-      {showConfetti && <Confetti width={window.innerWidth} height={window.innerHeight} />}
+      {showConfetti && (
+        <Confetti width={window.innerWidth} height={window.innerHeight} />
+      )}
     </div>
   );
 }
