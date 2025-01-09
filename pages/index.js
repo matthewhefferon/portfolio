@@ -4,7 +4,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { IoLogoTableau } from "react-icons/io5";
 import { useState } from "react";
 import Image from "next/image";
-import matthew from "../public/matthew.png";
+import matthew from "../public/heff.png";
 import everfi1 from "../public/everfi_1.png";
 import everfi2 from "../public/everfi_2.png";
 import everfi3 from "../public/everfi_3.png";
@@ -295,8 +295,8 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I started a YouTube channel to teach people about{" "}
               <span className="text-teal-500">data visualization</span>. I have{" "}
-              <span className="text-teal-500">3.23K subscribers</span> with over{" "}
-              <span className="text-teal-500">~869K views</span>. Here are some
+              <span className="text-teal-500">3.26K subscribers</span> with over{" "}
+              <span className="text-teal-500">~876K views</span>. Here are some
               of my most viewed videos.
             </p>
           </div>
