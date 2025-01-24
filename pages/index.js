@@ -295,8 +295,8 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I started a YouTube channel to teach people about{" "}
               <span className="text-teal-500">data visualization</span>. I have{" "}
-              <span className="text-teal-500">3.26K subscribers</span> with over{" "}
-              <span className="text-teal-500">~876K views</span>. Here are some
+              <span className="text-teal-500">3.29K subscribers</span> with over{" "}
+              <span className="text-teal-500">~885K views</span>. Here are some
               of my most viewed videos.
             </p>
           </div>
@@ -345,9 +345,6 @@ export default function Home() {
                 />
               </Link>
             </div>
-          </div>
-          <div className="py-5 text-center text-2xl dark:text-white md:text-3xl">
-            <p>Cheers 🍻</p>
           </div>
         </section>
       </main>
