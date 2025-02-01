@@ -2,7 +2,7 @@ import Head from "next/head";
 import { AiFillLinkedin, AiFillYoutube, AiFillGithub } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { IoLogoTableau } from "react-icons/io5";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import matthew from "../public/heff.png";
 import everfi1 from "../public/everfi_1.png";
@@ -26,16 +26,52 @@ import Confetti from "react-confetti";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
   const [showConfetti, setShowConfetti] = useState(false);
+  const [windowDimensions, setWindowDimensions] = useState({
+    width: 0,
+    height: 0,
+  });
+
+  useEffect(() => {
+    const updateWindowDimensions = () => {
+      setWindowDimensions({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    // Set initial dimensions
+    updateWindowDimensions();
+
+    // Update dimensions on resize
+    window.addEventListener("resize", updateWindowDimensions);
+
+    return () => window.removeEventListener("resize", updateWindowDimensions);
+  }, []);
 
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Matthew Hefferon | Developer Advocate & Data Visualization Professional</title>
-        <meta name="description" content="Matthew Hefferon is a Developer Advocate at Metabase specializing in data visualization, analytics, and embedded BI solutions. Certified in Tableau, Google BI, and Meta Front-End Development." />
-        <meta name="keywords" content="Matthew Hefferon, Developer Advocate, Data Visualization, Tableau, Metabase, Analytics, Business Intelligence" />
+        <title>
+          Matthew Hefferon | Developer Advocate & Data Visualization
+          Professional
+        </title>
+        <meta
+          name="description"
+          content="Matthew Hefferon is a Developer Advocate at Metabase specializing in data visualization, analytics, and embedded BI solutions. Certified in Tableau, Google BI, and Meta Front-End Development."
+        />
+        <meta
+          name="keywords"
+          content="Matthew Hefferon, Developer Advocate, Data Visualization, Tableau, Metabase, Analytics, Business Intelligence"
+        />
         <meta name="author" content="Matthew Hefferon" />
-        <meta property="og:title" content="Matthew Hefferon | Developer Advocate & Data Visualization Professional" />
-        <meta property="og:description" content="Matthew Hefferon is a Developer Advocate at Metabase specializing in data visualization, analytics, and embedded BI solutions." />
+        <meta
+          property="og:title"
+          content="Matthew Hefferon | Developer Advocate & Data Visualization Professional"
+        />
+        <meta
+          property="og:description"
+          content="Matthew Hefferon is a Developer Advocate at Metabase specializing in data visualization, analytics, and embedded BI solutions."
+        />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://matthefferon.com" />
         <meta property="og:image" content="https://matthefferon.com/heff.png" />
@@ -47,15 +83,15 @@ export default function Home() {
             __html: JSON.stringify({
               "@context": "http://schema.org",
               "@type": "Person",
-              "name": "Matthew Hefferon",
-              "jobTitle": "Developer Advocate",
-              "url": "https://matthefferon.com",
-              "sameAs": [
+              name: "Matthew Hefferon",
+              jobTitle: "Developer Advocate",
+              url: "https://matthefferon.com",
+              sameAs: [
                 "https://www.linkedin.com/in/matthewhefferon/",
                 "https://github.com/matthewhefferon",
-                "https://youtube.com/@matthewhefferon"
-              ]
-            })
+                "https://youtube.com/@matthewhefferon",
+              ],
+            }),
           }}
         />
       </Head>
@@ -80,7 +116,7 @@ export default function Home() {
                     onMouseEnter={() => setShowConfetti(true)}
                     onMouseLeave={() => setShowConfetti(false)}
                   >
-                    Connect{" "}
+                    Connect
                   </div>
                 </Link>
               </li>
@@ -147,16 +183,14 @@ export default function Home() {
               Licenses & Certifications
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I am <span className="text-teal-500">Tableau Certified</span> and
-              have earned the{" "}
+              I'm <span className="text-teal-500">Tableau Certified</span> and
+              received the{" "}
               <span className="text-teal-500">
                 Google Business Intelligence
               </span>{" "}
               and{" "}
               <span className="text-teal-500">Meta Front End Developer</span>{" "}
-              certifications. I also enjoy coding and experimenting with{" "}
-              <span className="text-teal-500">data visualization</span>{" "}
-              libraries like <span className="text-teal-500">D3.js</span>.
+              certifications.
             </p>
           </div>
           <div className="flex justify-center items-center flex-col gap-10 py-10 md:flex-row md:flex-wrap ">
@@ -372,9 +406,39 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="py-10 flex justify-center">
+          <Link
+            href="https://www.linkedin.com/in/matthewhefferon/"
+            passHref={true}
+          >
+            <div
+              className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-8 py-4 border-none rounded-md hover:brightness-95 text-xl"
+              onMouseEnter={() => setShowConfetti(true)}
+              onMouseLeave={() => setShowConfetti(false)}
+            >
+              Let's Connect!
+            </div>
+          </Link>
+        </section>
       </main>
       {showConfetti && (
-        <Confetti width={window.innerWidth} height={window.innerHeight} />
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            pointerEvents: "none",
+          }}
+        >
+          <Confetti
+            width={windowDimensions.width}
+            height={windowDimensions.height}
+            recycle={false}
+            numberOfPieces={200}
+          />
+        </div>
       )}
     </div>
   );
