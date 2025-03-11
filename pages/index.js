@@ -96,7 +96,7 @@ export default function Home() {
         />
       </Head>
       <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
-        <section className="min-h-screen">
+        <section className="h-screen max-h-[800px]">
           <nav className="py-10 flex justify-between dark:text-white">
             <h1 className="font-burtons text-xl"> </h1>
             <ul className="flex items-center">
@@ -177,7 +177,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="py-5">
+        <section className="pt-0 pb-5">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">
               Licenses & Certifications
