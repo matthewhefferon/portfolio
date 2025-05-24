@@ -15,8 +15,8 @@ export default function YouTubeSection() {
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
           I started a YouTube channel to teach people about{" "}
           <span className="text-teal-500">data visualization</span>. I have{" "}
-          <span className="text-teal-500">3.43K subscribers</span> with over{" "}
-          <span className="text-teal-500">~940K views</span>. Here are some
+          <span className="text-teal-500">3.46K subscribers</span> with over{" "}
+          <span className="text-teal-500">~951K views</span>. Here are some
           of my most viewed videos.
         </p>
       </div>
